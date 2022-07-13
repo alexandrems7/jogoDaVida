@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Code+Pro:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #548235;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Code Pro", monospace;
+}
+.horas {
+  background-color: rgb(28, 46, 30);
+  color: white;
+  text-align: center;
+  width: 11rem;
+  height: 3rem;
+  padding: 2px 1px;
+  font-size: 190%;
+  transform: translate(-5%, 5%);
+}
+#tituloInteracao {
+  background-color: #193f1a;
+  color: white;
+  text-align: center;
+  width: 25.5rem;
+  height: 7rem;
+  padding: 20px 1px;
+  left: 0%;
+  font-size: 30px;
+  transform: translate(-2%, -90%);
+}
+
+.interacao {
+  background-color: #276328;
+  width: 25.5rem;
+  height: 4rem;
+  padding: 10px 11px;
+  left: 0%;
+  font-size: 30px;
+  box-sizing: border-box;
+  transform: translate(-2%, -170%);
+  color: black;
+  cursor: pointer;
+}
+
+.titulo {
+  width: 25.5rem;
+  height: 4rem;
+  text-align: center;
+  padding: 1px 1px;
+  font-size: 50px;
+  background-color: #276328;
+  color: white;
+  width: 25rem;
+  transform: translate(120%, -150%);
+}
+
+.tituloAvisos {
+  color: white;
+  text-align: center;
+  width: 11rem;
+  padding: 2px 1px;
+  top: 5%;
+  left: 65%;
+  font-size: 50px;
+  transform: translate(500%, -900%);
+}
+
+.avisosGeral {
+  background-color: #276328;
+  color: white;
+  font-size: 30px;
+}
+.avisos1 {
+  width: 30rem;
+  padding: 10px 1px;
+  text-align: center;
+  left: 55%;
+  font-size: 30px;
+  height: 4rem;
+  transform: translate(45.7rem, -40rem);
+}
+
+.avisos2 {
+  left: 55%;
+  width: 30rem;
+  padding: 2px 1px;
+  top: 40%;
+  height: 18rem;
+  text-align: justify;
+  border: 20px solid #276328;
+  transform: translate(45.7rem, -41rem);
+}
